@@ -78,7 +78,7 @@ class Slider extends \Module
 			}
 		}
 
-		$this->root = dirname(System::getContainer()->getParameter('kernel.root_dir'));
+		$this->root = dirname(System::getContainer()->getParameter('kernel.project_dir'));
 		if (
 			$this->rsts_import_settings
 			&& $this->rsts_import_settings_from
